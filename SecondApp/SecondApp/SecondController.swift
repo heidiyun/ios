@@ -1,11 +1,3 @@
-//
-//  SecondController.swift
-//  SecondApp
-//
-//  Created by Yunjeong Goo on 2019. 1. 2..
-//  Copyright © 2019년 Yunjeong Goo. All rights reserved.
-//
-
 import UIKit
 
 class SecondController: UIViewController {
@@ -53,7 +45,7 @@ class SecondController: UIViewController {
     // 1. UIView를 동적으로 코드를 통해서 생성하는 방법.
     /*
     override func loadView() {
-        print("SecondController - loadViewjsg")
+        print("SecondController - loadView")
         // loadView - UIView
         // 사용자에게 보여지는 컴포넌트들을 추가하는 곳.
         let myView = UIView(frame: UIScreen.main.bounds)

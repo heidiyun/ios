@@ -74,6 +74,4 @@ extension XIBController: UITableViewDataSource {
         return cell
     } */
     // 위와 같이 작성하면 데이터가 많을 수록 메모리가 부족해진다.
-    
-    
 
